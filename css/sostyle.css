@@ -1,0 +1,87 @@
+body, div, ol, dl, dt, dd, ul, li, table, tr, td, h1, h2, h3, h4, h5, h6, p, form, button, img, strong, em { padding:0px; margin:0px; border:0px; font-style:normal; font-family:"΢���ź�";}
+body{ background:#fff;}
+li, dd, dt { list-style-type:none;}
+ol, ul, dl { list-style:none;}
+img { vertical-align:top;}
+a{text-decoration:none; outline:0; color:#fff;}
+::-webkit-input-placeholder { color:#ccc; } 
+input:-moz-placeholder { color:#ccc; }
+button::-moz-focus-inner, input::-moz-focus-inner {  margin:0; padding:0;}
+input,select, option, button, textarea { font-size:100%; vertical-align:middle; outline:0 none; border-radius:0px;}
+table{ border-collapse: collapse;border-spacing: 0;}
+/*�����ʽ*/
+.clear{ clear:both; height:0; width:100%;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{zoom: 1; clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/*ͷ��*/
+.header{ height:45px; background:#57a3f1;  box-shadow: 0 1px 4px #d7d9dd; position:relative; z-index:10;}
+.logo{ width:210px; height:62px; float:left;	}
+.top-contents{ padding-right: 20px;}
+.title-txt{ line-height:62px; color:#fff; font-size:16px;text-decoration:underline ;cursor:pointer}
+.out{ line-height:55px;color:#fff; font-size:14px;}
+.out a{ color:#fff; margin-left:20px;}
+.wrapper,.wrapper-left{ min-height:712px;}
+.wrapper{ background:#36404c;}
+.wrapper-fl{width:210px; float:left; margin-right: -100%;}
+.wrapper-fr{ min-height: 712px; background:#eceef2; overflow:hidden;}
+.wrapper-c{  background:#fff; min-height:50px; margin: 20px 20px 0 20px; border: 1px solid #e1e2e4;   overflow: hidden;min-width: 1000px;}
+.wrapper-c ul{ padding:20px}
+.wrapper-c li{ float:left; margin-left:20px}
+.wrapper-c li span{ color:#666; font-size:14px }
+.wrapper-c li .xiala{ border:1px solid #c9c9c9; width:100px; height:25px}
+.wrapper-c li button{ background:#32c16f; width:106px; line-height:36px; color:#fff}
+.wrapper-c li button:hover,.wrapper-c button:hover,.layer-button button:hover,.button-input button:hover{background:#01af4b;color:#fff}
+.nav{ position:relative; z-index:15; background:#36404c;}
+
+.nav{ width:210px; float:left;}
+.nav li{ width:210px;  display: block;}
+.nav li a{    display: block; color:#b0bec5; position: relative; margin: 0; border: 0px; padding: 12px 15px; text-decoration: none;
+font-size: 14px; font-weight: 300; line-height:26px; margin-bottom:1px;}
+.nav li span,.nav li ul li span{ padding-left:5px;}
+.nav li .open,.nav li a:hover{ background: #212733; color: #ffffff; }
+.nav li ul li a{display: block; margin: 0;  padding: 15px 15px 15px 43px;  text-decoration: none;  font-size: 14px;  font-weight: 300; background: none;}
+.icon{ width:28px; height:29px; display:inline-block; background:url(../images/icon.png) no-repeat; vertical-align:middle;}
+.icon-1{ background-position:0 -1px;}
+.icon-2{ background-position:0 -40px;}
+.icon-3{ background-position:0 -74px;}
+.icon-4{ background-position:0 -103px;}
+.icon-5{ background-position:0 -99px; float:left; margin-left:20px; margin-top:5px}
+.icon-6{ background-position:0 -134px; width:22px; height:22px }
+
+.title-lan{ border-bottom:1px solid #e2e2e4; margin: 0 20px;}
+.title-lan p{ color: #666;font-weight: bold;width: 100px; border-bottom: 3px solid #57a3f1;padding: 10px;}
+/*table*/
+.wrapper-c{ padding:20px;}
+.wrapper-c table tr td{ border:1px solid #c9c9c9; line-height:40px; text-align:center; color:#666; font-size:12px}
+.wrapper-c table .biaotou td{ font-size:14px; color:#333; font-weight:bold; background:#eeeff2}
+.wrapper-c table tr td input{ width:16px; height:16px; border:1px solid #c9c9c9;cursor:pointer }
+.wrapper-c table tr .xiahua{text-decoration:underline;color:#57a3f1; cursor:pointer}
+.wrapper-c table tr  td .icon-7{ background:url(../images/icon1.png) no-repeat; width:24px; height:24px; float:left;  margin-left: 95px;}
+.icon-8{background-position:0 -185px; width:22px; height:22px}
+.wrapper-c  button{ background:#32c16f; width:106px; line-height:36px; color:#fff; float:right;margin: 0 20px 20px;cursor:pointer}
+
+.wrapper-s{width: 1000px;height: 338px;top: 50%;left: 50%;position: absolute;margin-left: -500px;margin-top: -169px;}
+/*������*/
+.layer-bao{ width:350px; height:180px; top:50%; left:50%; position:absolute;background:#fff; border:1px solid #e2e2e4; margin-left:-175px;  margin-top:-90px;}
+.layer-ul { padding:30px 30px 0 30px}
+.layer-ul ul li{ padding-bottom: 10px;}
+.layer-ul ul li select,.layer-ul ul li input,.miniDialog_content ul input{ border:1px solid #c9c9c9; width:189px; height:32px;padding: 0 0 0 10px;}
+.layer-ul ul li select{ width:178px;}
+.layer-ul ul li button{ padding:7px 18px; color:#fff; background:#02bfe9; margin-left: 5px;}
+.layer-button{ text-align:center; width:100%; float:left;margin-top: 10px;}
+.layer-button button{ background:#33c16f; padding:8px 40px;  color:#fff}
+
+.miniDialog_wrapper{width:600px; height: 360px; display: block; left: 50%; top:50%; background:#fff; position:absolute; margin-top:-160px; margin-left:-330px;}
+.miniDialog_wrapper1{width:600px; height: 250px; display: block; left: 50%; top:50%; background:#fff; position:absolute; margin-top:-120px; margin-left:-330px;}
+.miniDialog_title{padding: 1px 8px; color: #666;height: 36px;line-height:36px;background: #f2f2f2;}
+.miniDialog_title .icon-9{ background:url(../images/icon2.png) no-repeat; width:16px; height:16px; float:right; margin-top: 10px;}
+.miniDialog_content{ margin:20px 20px 10px 20px}
+.miniDialog_content1{ margin:20px 20px 10px 10px}
+.miniDialog_content ul .label{ width:150px; text-align: right; float:left}
+.miniDialog_content ul .label .ftx04{ color:#F00;padding-right: 5px;}
+
+.miniDialog_content li{ float:left; margin-bottom:10px;}
+.wrapper-c table tr td img{padding-top: 8px;cursor:pointer}
